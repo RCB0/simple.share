@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Sharing</title>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore-compat.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>File Sharing App</h1>
+    <input type="file" id="fileInput">
+    <button id="uploadButton">Upload</button>
+
+    <h2>Files</h2>
+    <ul id="fileList"></ul>
+
+    <!-- Password/PIN Modal -->
+    <div id="authModal" style="display: none;">
+        <h2>Enter Password or PIN</h2>
+        <input type="text" id="authInput" placeholder="Password or PIN">
+        <button id="authButton">Submit</button>
+        <p id="errorMessage" style="color: red;"></p>
+    </div>
+
+    <script src="firebaseConfig.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
