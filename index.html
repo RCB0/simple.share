@@ -11,8 +11,16 @@
 </head>
 <body>
     <h1>File Sharing App</h1>
-    <input type="file" id="fileInput">
+    
+    <div id="dropZone" class="drop-zone">
+        Drag and drop files here or click to select
+    </div>
+    <input type="file" id="fileInput" multiple>
     <button id="uploadButton">Upload</button>
+    
+    <div id="progressContainer" class="progress-container">
+        <div id="progressBar" class="progress-bar"></div>
+    </div>
 
     <h2>Files</h2>
     <ul id="fileList"></ul>
