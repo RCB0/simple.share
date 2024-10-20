@@ -14,6 +14,7 @@ const progressContainer = document.getElementById('progressContainer');
 
 // Passwords and PINs
 const validCredentials = ['uwan is reyn', 'reynn', '1232', '54321', '7894'];
+console.log('uwan is reyn', 'reynn', '1232', '54321', '7894');
 
 // Show the authentication modal on load
 window.onload = () => {
