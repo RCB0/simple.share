@@ -13,8 +13,8 @@ const progressBar = document.getElementById('progressBar');
 const progressContainer = document.getElementById('progressContainer');
 
 // Passwords and PINs
-const validCredentials = ['uwan is reyn', 'reynn', '1232', '54321', '7894'];
-console.log('uwan is reyn', 'reynn', '1232', '54321', '7894');
+const validCredentials = ['uwansreyn', 'reynn', '1232', '54321', '7894'];
+console.log('uwan*i*s*reyn', 'r*e*yn-n', '1-2-3-2', '504030201', '78=94');
 
 // Show the authentication modal on load
 window.onload = () => {
